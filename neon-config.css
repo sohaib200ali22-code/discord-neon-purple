@@ -1,34 +1,17 @@
-/**
- * @name zzzzzark Neon Purple - Custom Bates Config
- * @author Sai
- * @version 3.1.0
- * @description Customized dark theme with vibrant neon purple accents based on Bates rewrite.
-*/
-
-@import url('https://B4T3S.github.io/DiscordDarkNeon/mainRewrite.css');
-
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
   --rgb-highlight: 157, 78, 221 !important;     /* النيون البنفسجي الأساسي */
   --rgb-background: 5, 4, 9 !important;          /* خلفية سوداء داكنة جداً */
-  --rgb-text: 224, 170, 255 !important;        /* النصوص باللون البنفسجي الفاتح الرايق */
+  --rgb-text: 224, 170, 255 !important;        /* النصوص باللون البنفسجي الفاتح */
   --rgb-close-button: 212, 18, 39;   
   --rgb-online-color: 57, 255, 20; 
   --rgb-afk-color: 255, 255, 51; 
   --rgb-dnd-color: 255, 0, 0; 
   --rgb-streaming-color: 188, 19, 254;
-
-  --transition-time: .25s; 
-
-  --background-image: unset; 
-  --background-position: center; 
-  --background-size: cover; 
-  --background-blur: 5px; 
-  --background-brightness: 100%; 
 }
 
-/* إزالة أي مربعات أو خلفيات سوداء صلبة ورا الميديا أو قوائم الكليك يمين بناءً على هيكل الـ GitHub */
+/* إزالة المربعات والخلفيات الصلبة */
 div[class*="messageAttachment"], 
 div[class*="imageWrapper"], 
 div[class*="embed"], 
@@ -39,6 +22,6 @@ div[class*="item"] {
 
 div[class*="menu"] {
   background-color: rgba(13, 10, 26, 0.95) !important;
-  border: 1px solid rgb(157, 78, 221) !important;
-  box-shadow: 0 0 15px rgba(157, 78, 221, 0.5) !important;
+  border: 1.5px solid rgb(157, 78, 221) !important;
+  box-shadow: 0 0 15px rgba(157, 78, 221, 0.6) !important;
 }
